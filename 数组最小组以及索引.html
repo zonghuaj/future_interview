@@ -1,0 +1,26 @@
+<script>
+
+// 取数组中最小数字值 
+
+// // first method
+// let sourceArray = [12, 34, 45, 60, 80, 90, 6];
+// let minValue = sourceArray[0];
+// sourceArray.forEach((item)=>{
+//   minValue = minValue > item ? item :minValue;
+// });
+// alert(minValue);
+
+// second method 
+let sourceArraySecond = [12, 34, 45, 60, 80, 90, 6];
+let minValueSecond = Math.min(...sourceArraySecond);
+alert(minValueSecond);
+//取数组中最小数值索引
+let minValueIndex = sourceArraySecond.findIndex((item) =>{ return item == minValueSecond});
+alert(minValueIndex+ '最小值索引');
+
+
+
+
+  
+
+</script>
