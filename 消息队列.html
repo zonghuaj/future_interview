@@ -18,9 +18,11 @@
           return new Queue()
         }
          execute(promise) {
-          return (this.promise = this.promise
-            .then(() => promise)
-            .catch((err) => void console.error(err)))
+          // return (this.promise = this.promise
+          //   .then(() => promise)
+          //   .catch((err) => void console.error(err)))
+
+            return (this.promise = promise)
         }
       }
 
