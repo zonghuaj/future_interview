@@ -1,6 +1,8 @@
 fetch 发送 post 请求的时候，总是发送 2 次，第一次状态码是 204，第二次才成功？
 
    https://blog.csdn.net/u012149969/article/details/108172195
+   https://www.jianshu.com/p/9c77f0a71f34
+   
    发送2次请求需要满足以下2个条件：
 
     必须要在跨域的情况下。
